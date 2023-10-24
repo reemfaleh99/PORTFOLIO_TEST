@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">folio<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols col0">
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"></span></h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            debitis, amet aperiam blanditiis officia rerum! Quae voluptates
+            dolore corporis qui molestiae provident fuga architecto fugit,
+            deserunt, laborum illo, accusamus aliquam?
+          </p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Hire me</button>
+          </div>
+        </div>
+        <div class="cols col1">
+          <div class="imgbox">
+            <img src="assets/imgs/landing2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings: ["Coder", "Developer", "Programmer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
